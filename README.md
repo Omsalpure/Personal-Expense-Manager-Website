@@ -8,7 +8,7 @@ The Personal Expense Manager is a web-based application that helps users track a
 
 ## 🚀 Features
 
- 🔐 User Registration & Login (Secure Authentication)
+* 🔐 User Registration & Login (Secure Authentication)
 * ➕ Add New Expenses
 * ✏️ Edit Existing Expenses
 * ❌ Delete Expenses
@@ -21,16 +21,20 @@ The Personal Expense Manager is a web-based application that helps users track a
 ## 🛠️ Technology Stack
 
 **Frontend:**
+
 * HTML
 * CSS
 
 **Backend:**
+
 * PHP
 
 **Database:**
+
 * MySQL
 
 **Tools:**
+
 * XAMPP
 * VS Code
 
@@ -38,7 +42,7 @@ The Personal Expense Manager is a web-based application that helps users track a
 
 ## 🗂️ Project Structure
 
-``
+```
 expense_pro/
 │── db.php
 │── register.php
@@ -102,5 +106,5 @@ expense_pro/
 ## 👨‍💻 Author
 
 **Om Viresh Salpure**
-
 ---
+
