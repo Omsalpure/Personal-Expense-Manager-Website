@@ -1,0 +1,139 @@
+:root {
+    --primary: #4338ca;
+    --success: #15803d;
+    --danger: #b91c1c;
+    --bg: #f3f4f6;
+    --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Card Styling */
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 25px;
+}
+
+/* Typography */
+h2, h3 {
+    margin-top: 0;
+    color: #111827;
+}
+
+/* Auth Pages Layout */
+.auth-container {
+    max-width: 400px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+/* Form Elements */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(67, 56, 202, 0.1);
+}
+
+/* Buttons */
+button {
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: #ffffff;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #3730a3;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 15px;
+    background-color: #f9fafb;
+    color: #6b7280;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: middle;
+}
+
+/* Utility Classes */
+.badge {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    background-color: #f3f4f6;
+    font-weight: 700;
+    color: #4b5563;
+}
+
+.edit-link {
+    color: var(--success);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.delete-link {
+    color: var(--danger);
+    text-decoration: none;
+}
+
+.logout-link {
+    float: right;
+    color: var(--danger);
+    text-decoration: none;
+    font-weight: bold;
+}
