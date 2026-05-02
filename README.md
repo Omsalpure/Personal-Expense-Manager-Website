@@ -86,14 +86,6 @@ expense_pro/
 
 ---
 
-## 📸 Screenshots
-
-* Registration Page
-* Login Page
-* Dashboard (Add/Edit/Delete Expenses)
-
----
-
 ## 📈 Future Enhancements
 
 * Graphical reports (charts)
